@@ -1,0 +1,8 @@
+{
+  "utr": "123456789012",
+  "amount": 100.00,
+  "merchantVpa": "rajeswariraja720-1@oksbi",
+  "status": "SUCCESS",
+  "customerVpa": "test@upi",
+  "timestamp": "2026-02-23T11:35:00Z"
+}

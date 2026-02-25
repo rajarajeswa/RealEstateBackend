@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="maroonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B3D47"/>
+      <stop offset="100%" style="stop-color:#5A252C"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0D77C"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#maroonGrad)"/>
+  
+  <!-- Decorative Ring -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Letter K stylized -->
+  <text x="50" y="62" 
+        font-family="Georgia, serif" 
+        font-size="42" 
+        font-weight="bold" 
+        fill="url(#goldGrad)" 
+        text-anchor="middle">K</text>
+  
+  <!-- Small spice dot accents -->
+  <circle cx="25" cy="30" r="3" fill="#E1A624" opacity="0.8"/>
+  <circle cx="75" cy="30" r="3" fill="#E1A624" opacity="0.8"/>
+  <circle cx="25" cy="70" r="3" fill="#E1A624" opacity="0.8"/>
+  <circle cx="75" cy="70" r="3" fill="#E1A624" opacity="0.8"/>
+</svg>
